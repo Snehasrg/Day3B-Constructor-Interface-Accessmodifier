@@ -6,13 +6,13 @@ namespace Demo
     {
         public static void Main(String[] args)
         {
-
-            //ConstructorDemo obj= new ConstructorDemo(10,"Raj");
-            //Console.WriteLine(obj.age);
-            //Console.WriteLine(obj.name);
-
-            //Dog dog = new Dog();  
-            //dog.animalSound();
+        //Method call for constructor
+            ConstructorDemo obj = new ConstructorDemo(10, "Raj");
+            Console.WriteLine(obj.age);
+            Console.WriteLine(obj.name);
+        //Method call for Interface
+            Dog dog = new Dog();
+            dog.animalSound();
 
         // Method call for Access Modifiers
             AccessModifierDemo person = new AccessModifierDemo();
