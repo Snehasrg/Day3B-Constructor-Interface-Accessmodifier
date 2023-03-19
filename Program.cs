@@ -11,6 +11,9 @@ namespace Demo
             Console.WriteLine(obj.age);
             Console.WriteLine(obj.name);
 
+            Dog dog = new Dog();  
+            dog.animalSound();
+
         }
     }
 }
