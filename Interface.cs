@@ -19,6 +19,3 @@ namespace Demo
          }
     }
 }
-
-//Dog dog = new Dog();  
-//dog.animalSound();
